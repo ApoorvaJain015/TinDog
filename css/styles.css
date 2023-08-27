@@ -1,0 +1,207 @@
+.body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, .hh2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.hh2{
+    
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* All h3 is .fea-title */
+
+p{
+    color: #8f8f8f;
+}
+
+/* Headings */
+.Big-Heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid
+{
+    padding: 7% 15%;
+}
+
+#title
+{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+/* Navigation Bar */
+#navbar
+{
+    padding-bottom: 4.5rem;
+}
+
+#navbar-brand
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item
+{
+    padding: 0% 18px;
+}
+
+.link
+{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+/* Download Button */
+.download-button
+{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image
+{
+    width: 18%;
+    transform: rotate(25deg);
+    position: absolute;
+    top: 37%;
+    left: 57%;
+    
+}
+
+/* Features Section */
+#features
+{
+    /* padding: 7% 15%; */
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; This is optional here (look at flowchart)*/
+}
+.fea-title
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.fea
+{
+    color: #8f8f8f;
+    width: 60%;
+    margin: auto;
+}
+.fa-2xxl
+{
+    color: #ef8172;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    padding-top: 50px;
+}
+.fa-2xxl:hover
+{
+    color: #ff4c68;  
+}
+
+/* Testimonial Section */
+#testimonials
+{
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item /*(applied container fluid but didn't worked) */
+{
+    padding: 7% 15%;
+}
+
+.Pebbles
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+#press
+{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.logos
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing
+{
+    padding: 100px;    
+}
+
+.pricing-colmn
+{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+    #title
+    {
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        width: 50%;
+        transform: rotate(0);
+    }
+    
+}
+
+/* call to Action Section */
+
+#cta
+{
+    color: #fff;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+/* .cta-title (It is same as the Big Heading
+    so no need to specify it again.)
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+} */
+
+/* Footer section */
+
+/* #footer
+{
+    text-align: center;
+    padding: 7% 15%;
+} 
+*/
+
+.icn
+{
+    margin: auto 10px 20px;
+}
+
+/* For Refactoring the Code */
+/* 1. Try to give specific classes to each of the header */
+/* 2. Try to avoid repetation as much as possible */
